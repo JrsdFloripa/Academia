@@ -48,6 +48,9 @@ public class GerControler {
         return String.valueOf(peso);
 
     }
+    DeleteMapping("/excluir/{codigo}")
+    public string excluirAluno(@pathVariable("codigo") int codigo){
+        return "Aluno excluvido com sucesso!"}
 
 }
 
